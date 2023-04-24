@@ -1,5 +1,6 @@
 from django.db import models
-
+import datetime
+from django.utils import timezone
 # Create your models here.
 # 모델 생성
 # 모델을 테이블에 써 주기 위한 마이그레이션이라는걸 만든다.
@@ -14,9 +15,27 @@ from django.db import models
 
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
-    pub_data = models.DateTimeField('date published')
+    pub_data = models.DateTimeField(auto_now_add = True)
+    # score = models.FloatField(default = 0)
+    # is_something_wrong = models.BooleanField(default = False)
+    # json_field = models.JSONField(default=dict)
+    
+    def was_published_recently(self):
+        return self.pub_data >= timezone.now() - datetime.timedelta(days=1)
+    
+    def __str__(self):
+        if self.was_published_recently :
+            new_badge = 'NEW!!!'
+        else :
+            new_badge = ''
+        return f'{new_badge}제목 : {self.question_text}, 날짜: {self.pub_data}'
+    
+    
     
 class Choice(models.Model):
     question = models.ForeignKey(Question, on_delete = models.CASCADE)
     choice_text = models.CharField(max_length = 200)
     votes = models.IntegerField(default = 0)
+    
+    def __str__(self):
+        return f'[{self.question.question_text}] {self.choice_text}'
