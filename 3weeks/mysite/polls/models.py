@@ -9,6 +9,8 @@ class Question(models.Model):
     # score = models.FloatField(default = 0)
     # is_something_wrong = models.BooleanField(default = False)
     # json_field = models.JSONField(default=dict)
+    owner = models.ForeignKey('auth.User',related_name = 'questions',on_delete=models.CASCADE, null = True)
+    
     
     @admin.display(boolean=True, description='최근생성(하루기준)')
     def was_published_recently(self):
