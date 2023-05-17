@@ -7,10 +7,7 @@ from django.contrib.auth.models import User
 class Question(models.Model):
     question_text = models.CharField(max_length=200, verbose_name = '질문')
     pub_data = models.DateTimeField(auto_now_add = True, verbose_name='생성일')
-    # owner = models.ForeignKey('auth.User',related_name = 'questions',on_delete=models.CASCADE, null = True)
-    
-    # SQLite3 에는 있는데 Django에서는 안보이는건지???
-    # 데베 자체에서 제거해버리겠다는건지
+
     
 class Choice(models.Model):
     question = models.ForeignKey(Question, related_name='choices', on_delete = models.CASCADE)
