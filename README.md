@@ -33,3 +33,4 @@ TIL day | weeks | topic
 [5월 15일 (월) - 26일차](https://www.notion.so/pengping/5-15-26-75f6b62864624b5484154226ee5ae3d5) | 6주차 | EC2, Cloud |
 [5월 16일 (화) - 27일차](https://www.notion.so/pengping/5-16-27-7dc763b8b8554f4387ab2427851464f5) | 6주차 | route53, VPC, RDS |
 [5월 17일 (수) - 28일차](https://www.notion.so/pengping/5-17-28-d82b8a55f1ed48008973a701cdf69736) | 6주차 | S3, CI/CD |
+[5월 18일 (목) - 29일차](https://www.notion.so/pengping/5-18-29-5a2fb01a9a864dc3b09f3e2a55cee0d8) | 6주차 | AWS CLI |
