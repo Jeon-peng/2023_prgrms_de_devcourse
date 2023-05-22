@@ -40,3 +40,5 @@ TIL day | weeks | topic
 [5월 17일 (수) - 28일차](https://www.notion.so/pengping/5-17-28-d82b8a55f1ed48008973a701cdf69736) | 6주차 | S3, CI/CD |
 [5월 18일 (목) - 29일차](https://www.notion.so/pengping/5-18-29-5a2fb01a9a864dc3b09f3e2a55cee0d8) | 6주차 | AWS CLI |
 [5월 19일 (금) - 30일차](https://www.notion.so/pengping/5-19-30-b2e2b4f2020c44a69a893908d1324fff) | 6주차 | AWS Lambda, AWS CloudWatch, AWS ApiGateway |
+| | |
+[5월 19일 (금) - 30일차](https://www.notion.so/pengping/5-22-31-4f9d6b2471ae4ca1a72e656b32225172) | 7주차 | ETL, DW, DataLake, BigQuery |
