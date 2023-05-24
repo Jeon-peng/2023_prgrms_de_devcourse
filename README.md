@@ -42,6 +42,7 @@ TIL day | weeks | topic
 [5월 19일 (금) - 30일차](https://www.notion.so/pengping/5-19-30-b2e2b4f2020c44a69a893908d1324fff) | 6주차 | AWS Lambda, AWS CloudWatch, AWS ApiGateway |
 | | |
 [5월 22일 (월) - 31일차](https://www.notion.so/pengping/5-22-31-4f9d6b2471ae4ca1a72e656b32225172) | 7주차 | ETL, DW, DataLake, BigQuery |
-[5월 23일 (화) - 32일차](https://www.notion.so/pengping/5-23-32-a02e50c6af1e4cd884985b2c3f01fe5b) | 7주차 |  |
+[5월 23일 (화) - 32일차](https://www.notion.so/pengping/5-23-32-a02e50c6af1e4cd884985b2c3f01fe5b) | 7주차 | Redshift |
+[5월 24일 (수) - 33일차](https://www.notion.so/pengping/5-24-33-c77a9654e27a45808d46708150ccc339) | 7주차 | Redshift |
 
 
