@@ -45,4 +45,4 @@ TIL day | weeks | topic
 [5월 23일 (화) - 32일차](https://www.notion.so/pengping/5-23-32-a02e50c6af1e4cd884985b2c3f01fe5b) | 7주차 | Redshift, COPY |
 [5월 24일 (수) - 33일차](https://www.notion.so/pengping/5-24-33-c77a9654e27a45808d46708150ccc339) | 7주차 | Redshift |
 [5월 25일 (목) - 34일차](https://www.notion.so/pengping/5-25-34-cd2992a0428540308328bdcfccb9f507) | 7주차 | snowflake |
-
+[5월 26일 (금) - 35일차](https://www.notion.so/pengping/5-26-35-1a137b475bd14d3189d3eb376ead760f) | 7주차 | Superset |
